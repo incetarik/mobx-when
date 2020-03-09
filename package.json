@@ -1,0 +1,36 @@
+{
+  "name": "mobx-when",
+  "version": "1.0.0",
+  "description": "@when decorator for MobX state changes and reactively executing functions.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/incetarik/mobx-when.git"
+  },
+  "keywords": [
+    "mobx",
+    "react",
+    "when",
+    "decorator"
+  ],
+  "author": "Tarık İnce <incetarik@hotmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/incetarik/mobx-when/issues"
+  },
+  "homepage": "https://github.com/incetarik/mobx-when#readme",
+  "peerDependencies": {
+    "mobx": "5.x"
+  },
+  "dependencies": {
+    "mobx": "5.x"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "types": "dist/index.d.ts"
+}
